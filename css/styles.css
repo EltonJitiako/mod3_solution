@@ -8,21 +8,22 @@ body{
     text-align: center;
 }
 
+#navbar-header>h1{
+  float: left;
+}
+
 #header-nav {
   background-color: grey;
   border-radius: 0;
   border: 0;
 }
 
-
-
-.row {
-  width: 100%;
+.section1{
+  border: 15px solid transparent;
 }
 
 .section{
     border: 1px solid black;
-    border-radius: 10px;
     background-color: grey;
     display: flex;
     align-items: center;
@@ -32,7 +33,6 @@ body{
 
 .title{
     border: 1px solid black;
-    border-radius: 10px;
     width: 150px;
     display: flex;
     justify-content: center;
