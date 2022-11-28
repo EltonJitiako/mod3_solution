@@ -8,9 +8,15 @@ body{
     text-align: center;
 }
 
-#navbar-header>h1{
-  float: left;
+#nav-list a {
+  color: black;
+  text-align: center;
 }
+#nav-list a:hover {
+  background: white;
+}
+
+
 
 #header-nav {
   background-color: grey;
