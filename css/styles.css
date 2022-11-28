@@ -1,53 +1,42 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
 }
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    background-color: lightgrey;
 }
 
 #header-nav {
-  background-color: lightblue;
+  background-color: grey;
   border-radius: 0;
   border: 0;
-  height: 100px;
 }
 
-.navbar .navbar-nav .nav-link {
-  padding-right: 1em;
-}
 
-.text {
-  margin: 10px;
-}
 
 .row {
   width: 100%;
 }
 
 .section{
-    position: relative;
     border: 1px solid black;
     border-radius: 10px;
-    height: 230px;
-    overflow: auto;
-    float: left;
-    margin: 1.5%;
     background-color: grey;
-    box-shadow: 10px 10px 5px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 10000px;
 }
 
 .title{
     border: 1px solid black;
     border-radius: 10px;
     width: 150px;
-    position: absolute;
-    right: 0;
-    top: 0;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #title1 {
@@ -66,23 +55,23 @@ body{
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
-    width: 30%;
+    width: 33.33%;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-    width: 47%;
+    width: 50%;
   }
   .col-md-12 {
-    width: 97%;
+    width: 100%;
   }
 }
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
     .col-sm-12 {
-      width: 97%;
+      width: 100%;
     }
 }
